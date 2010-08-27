@@ -28,11 +28,12 @@ my %WriteMakefileArgs = (
     'Carp' => '0',
     'Exporter' => '0',
     'HTML::TreeBuilder' => '0',
+    'MediaWiki::Bot' => '3.0.0',
     'Net::CIDR' => '0',
     'URI::Escape' => '0',
     'WWW::Mechanize' => '1.30'
   },
-  'VERSION' => '0.0001',
+  'VERSION' => '0.0002',
   'test' => {
     'TESTS' => 't/*.t'
   }
